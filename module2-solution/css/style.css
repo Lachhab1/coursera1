@@ -3,16 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
 .container h1{
 margin: 5%;
 text-align: center;
+font-size: 32pt;
 }
 section{
     position: relative;
-    border: 2px solid #000;
+    border: 5px solid #000;
     overflow: hidden;
-    background-color: gray;
-    height: 25vh;
+    height: 35vh;
+    background-color: rgba(0,0,0,0.3);
     font-weight: 500;
 }
 .title{
@@ -22,23 +26,26 @@ section{
     width: 40%;
     height: 20%;
     clear: left;
-    border: 2px solid #000;
+    border-bottom: 4px solid #000;
+    border-left: 4px solid #000;
     text-align: center;
     font-size: larger;
     font-weight: bold;
 }
 .title1{
-    background-color: tomato;
+    background-color: #FFB6C1;
 }
 .title2{
-    background-color: magenta;
+    background-color: #FF0000;
+    color: white;
 }
 .title3{
-    background-color: lightcoral;
+    background-color: #FFFF00;
 }
 p{
     float: left;
     text-align: left;
+    padding: 5%;
     overflow: hidden;
     text-overflow: ellipsis;
 }
