@@ -14,7 +14,6 @@ font-size: 32pt;
 section{
     position: relative;
     border: 5px solid #000;
-    overflow: hidden;
     height: 35vh;
     background-color: rgba(0,0,0,0.3);
     font-weight: 500;
@@ -45,7 +44,9 @@ section{
 p{
     float: left;
     text-align: left;
-    padding: 5%;
+    padding: 4%;
+    height: 80%;
+    overflow: hidden;
 }
 
 @media (min-width:992px){
