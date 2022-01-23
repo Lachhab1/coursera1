@@ -46,8 +46,6 @@ p{
     float: left;
     text-align: left;
     padding: 5%;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 @media (min-width:992px){
