@@ -1,0 +1,92 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400;1,600;1,700&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+	line-height: 2;
+}
+/** HEADER **/
+#header-nav {
+	background-color: #e7e7e7;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	/* Restaurant name */
+	font-family: 'Lora', serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: -15px;
+	margin-bottom: 0;
+	line-height: .75;
+	margin-left: 5vw;
+}
+.navbar-brand a {
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 2px;
+}
+#nav-list li {
+	border-bottom: 1px solid #fff;
+}
+#nav-list a {
+	color: dimgray;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: honeydew;
+}
+navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+	border: 1px solid #181818;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+.main-content h2 {
+	font-weight: bolder;
+	font-size: 2.5em;
+	padding: 1.2%;
+}
+.main-content .menu-tile {
+	background-color: antiquewhite;
+	border: none;
+	width: 95vw;
+	height: 40vh;
+	margin-left: 2.5vw;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.main-content h3 {
+	font-size: 1.7em;
+	font-weight: bold;
+}
+.main-content .menu-tile > p {
+	padding: auto;
+	margin-top: -10px;
+	max-height: 75%;
+}
+@media (max-width: 767px) {
+	.main-content .menu-tile {
+		width: 50%;
+		height: 20vh;
+		margin-top: 5vh;
+		margin-left: 25%;
+		clear: left;
+	}
+	.main-content .menu-tile > p {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		height: 65%;
+		font-size: 1em;
+		line-height: 1.2;
+	}
+}
